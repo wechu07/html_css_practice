@@ -1,1 +1,1 @@
-## Netflix landing page inspired by (Albenis Kërqeli Codepen)[https://codepen.io/albenis-k-rqeli/pen/eYNGzvJ]
+## Netflix landing page inspired by [Albenis Kërqeli Codepen](https://codepen.io/albenis-k-rqeli/pen/eYNGzvJ)
