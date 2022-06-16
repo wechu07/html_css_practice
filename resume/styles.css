@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito',
+        sans-serif;  
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #cacacb;
+}
+
+.body {
+    background-color: #f3eaf4;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+.name {
+    margin: 0;
+    background-color: #7f96ad;
+    border: black solid 1px;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.statement {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows: 120px;
+}
+
+.statement div:nth-of-type(1) {
+    margin: 0;
+    padding: 10px;
+}
+
+.statement div:nth-of-type(2) {
+    margin: 0;
+    padding: 10px;
+}
+
+.certifications {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows: 50px;
+}
+
+.certifications div:nth-of-type(1) {
+    margin: 0;
+    padding: 10px;
+}
+
+.certifications div:nth-of-type(2) {
+    margin: 0;
+    padding: 10px;
+}
+
+.experience {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows: 800px;
+}
+
+.experience div:nth-of-type(1) {
+    margin: 0;
+    padding: 10px;
+}
+
+.experience div:nth-of-type(2) {
+    margin: 0;
+    padding: 10px;
+}
+
+.education {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows: 300px;
+}
+
+.education div:nth-of-type(1) {
+    margin: 0;
+    padding: 10px;
+}
+
+.education div:nth-of-type(2) {
+    margin: 0;
+    padding: 10px;
+}
+
+.academic_achievements {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows: 100px;
+}
+
+.academic_achievements div:nth-of-type(1) {
+    margin: 0;
+    padding: 10px;
+}
+
+.academic_achievements div:nth-of-type(2) {
+    margin: 0;
+    padding: 10px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows: 150px;
+}
+
+.skills div:nth-of-type(1) {
+    margin: 0;
+    padding: 10px;
+}
+
+.skills div:nth-of-type(2) {
+    margin: 0;
+    padding: 10px;
+}
+
+.interests {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows: 150px;
+}
+
+.interests div:nth-of-type(1) {
+    margin: 0;
+    padding: 10px;
+}
+
+.interests div:nth-of-type(2) {
+    margin: 0;
+    padding: 10px;
+}
+
+.referees .first_ref ul,
+.referees .second_ref ul,
+.referees .third_ref ul {
+    list-style-type: none;
+}
+
+.referees {
+    margin: 10px;
+    padding: 10px;
+}
+
+.referees h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.referees .first_ref {
+    border: #7f96ad solid 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.referees .second_ref {
+    border: #7f96ad solid 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.referees .third_ref {
+    border: #7f96ad solid 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}

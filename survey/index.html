@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Website survey form</h1>
+    <p>Kindly fill out the form to help us improve our website</p>
+
+    <section>
+        <form id="survey-form">
+            <!-- name -->
+            <label for="name" id="name-label">Your Name</label>
+            <div class="names">
+                <input type="text" id="name" required="true" placeholder="First Name">
+                <input type="text" id="fname" required="true" placeholder="Last Name">
+            </div>
+            <!-- email address -->
+            <label for="email" id="email-label">Your Email</label><br>
+            <input type="email" id="email" required="true" placeholder="johndoe@gmail.com"><br>
+            <!-- age -->
+            <label for="name" id="number-label">Your Age</label><br>
+            <input type="number" min="1" max="80" placeholder="Age" id="number" placeholder="24"><br>
+            <!-- dropdown -->
+            <label>How did you hear about this website?</label><br>
+            <select id="dropdown">
+                <option>Select Option</option>
+                <option>Social Media</option>
+                <option>Advertisment</option>
+                <option>Search Engine</option>
+                <option>My Friends</option>
+            </select><br>
+            <!-- checkbox -->
+            <label>Which device do you normally use to access the website?</label>
+            <ul>
+                <li><input type="checkbox" name="" value="1">Desktop/Laptops</li>
+                <li><input type="checkbox" name="" value="2">Mobile Devices</li>
+                <li><input type="checkbox" name="" value="3">Pad Devices</li>
+            </ul>
+            <!-- radio options -->
+            <label>What browser do you normally use to access the website?</label>
+            <ul>
+                <li><input type="radio" name="browser" value="mf"> Mozilla Firefox</li>
+                <li><input type="radio" name="browser" value="gc">Google Chrome</li>
+                <li><input type="radio" name="browser" value="ie">Internet Explorer</li>
+                <li><input type="radio" name="browser" value="om">Opera Mini</li>
+                <li><input type="radio" name="browser" value="s">Safari</li>
+                <li><input type="radio" name="browser" value="o">Others</li>
+            </ul>
+            <!-- also radio options -->
+            <label>Are you satisfied with the website?</label>
+            <ul>
+                <li><input type="radio" name="browser" value="mf"> Very Satisfied</li>
+                <li><input type="radio" name="browser" value="gc">Satisfied</li>
+                <li><input type="radio" name="browser" value="ie">Neutral</li>
+                <li><input type="radio" name="browser" value="om">Unsatisfied</li>
+                <li><input type="radio" name="browser" value="s">Very Unsatisfied</li>
+            </ul>
+            <!-- textarea -->
+            <label>Additional Comments</label><br>
+            <textarea placeholder="Other comments"></textarea><br>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </section>
+    <hr>
+    <footer>
+        © 2022. Developed by Shikamaru
+    </footer>
+
+</body>
+
+</html>
